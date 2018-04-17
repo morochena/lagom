@@ -1,0 +1,189 @@
+[
+    {
+      "name": "Aggo",
+      "date": "2018",
+      "role": "Lead Developer, Designer",
+      "type": "Mobile App",
+      "product_short_description": "Life Goal Planner",
+      "product_long_description":
+        "Aggo is an iOS app designed to help you reach your goals, form new habits, and be the best version of yourself.",
+      "development_narrative": "",
+      "stack": ["React Native", "MobX State Tree", "React Navigation", "Expo"],
+      "url": ""
+    },
+    {
+      "name": "Take a Breather",
+      "date": "2018",
+      "role": "Solo Developer",
+      "type": "Firefox Add-on",
+      "product_short_description":
+        "Take some time to yourself instead of mindlessly browsing.",
+      "product_long_description":
+        "Sometimes at work I find myself needing a small break. Too often, this leads to mindlessly tabbing through different social media or shopping sites before I realize I've lost 15 or 30 minutes of productivity. This app encourages you to take conscious breaks by popping up before you access particular sites that you specify.",
+      "development_narrative": "",
+      "stack": ["Javascript"],
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/take-a-breather/"
+    },
+    {
+      "name": "Snooz",
+      "date": "2018",
+      "role": "Solo Developer",
+      "type": "Mobile App",
+      "product_short_description": "Custom Alarm Clock",
+      "product_long_description":
+        "Snooz is an alarm app that helps you break your bad snoozing habits by making you donate to a charity every time you oversleep or hit the snooze button.",
+      "development_narrative": "",
+      "stack": ["React Native"],
+      "url":
+        "https://www.kickstarter.com/projects/1282572530/snooz-the-app-that-helps-your-break-your-snoozing?ref=user_menu"
+    },
+    {
+      "name": "Francisco v2",
+      "date": "2018",
+      "role": "Lead Developer",
+      "type": "Web Application",
+      "product_short_description": "Project Management Software",
+      "product_long_description":
+        "Francisco is project management software. It features unique case number generation, note/activity tracking, file upload/management, todo assignments and reminder e-mails. It also integrates with Quickbooks and Harvest for automatic invoice generation.",
+      "development_narrative": "",
+      "stack": ["Django", "SQLite"],
+      "url": "in-house"
+    },
+    {
+      "name": "Tavern",
+      "date": "2017",
+      "role": "Lead Developer, Project Manager",
+      "type": "Web Application",
+      "product_short_description": "Whisky Encyclopedia",
+      "product_long_description":
+        "Tavern is a whisky encyclopedia and social network. You can rate whiskies that you've had, and record their flavor profile. Among other things, it features a recommender system to suggest other whiskies you may like. ",
+      "development_narrative": "",
+      "stack": [
+        "Phoenix",
+        "Elixir",
+        "GraphQL",
+        "Apollo (JS)",
+        "MobX",
+        "Postgres"
+      ],
+      "url": "http://www.tavernapp.io"
+    },
+    {
+      "name": "Zombies!",
+      "date": "2017",
+      "role": "AI/Network Programmer",
+      "type": "Game",
+      "product_short_description": "Multiplayer Zombie Survival Game",
+      "product_long_description":
+        "Zombies! is a 2d procedurally generated pixel art multiplayer survival game. You can work together with your fellow humans, or hunt them down for supplies.",
+      "development_narrative": "",
+      "stack": ["LibGDX", "Mini2DX", "Java", "KryoNet"],
+      "url": ""
+    },
+  
+    {
+      "name": "Medical Genetics Mastery",
+      "date": "2016",
+      "role": "Solo Developer",
+      "type": "Web API Backend, Mobile Frontend",
+      "product_short_description": "Flashcard System",
+      "product_long_description":
+        "This is a flashcard system originally designed for a genetics board exam. It has a Rails backend with an administrative interface and an API that connects to a React Native frontend.",
+      "development_narrative": "",
+      "stack": ["React Native", "Ruby on Rails", "Postgres"],
+      "url": ""
+    },
+  
+    {
+      "name": "DTrace",
+      "date": "2016",
+      "role": "Solo Developer",
+      "type": "Mobile App",
+      "product_short_description":
+        "Alerts you when you move too far away from your golf clubs",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+    {
+      "name": "Leyefe",
+      "date": "2016",
+      "role": "Solo Developer",
+      "type": "Web API Backend, Mobile Frontend",
+      "product_short_description": "Share moments of your life",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+    {
+      "name": "Francisco",
+      "date": "2015",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+    {
+      "name": "World Domination",
+      "date": "",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+    {
+      "name": "DEO",
+      "date": "",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+  
+    {
+      "name": "Cosmop",
+      "date": "2013-2014",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+  
+    {
+      "name": "QuickDrink",
+      "date": "",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    },
+  
+    {
+      "name": "Monocount",
+      "date": "2013",
+      "role": "",
+      "type": "",
+      "product_short_description": "",
+      "product_long_description": "",
+      "development_narrative": "",
+      "stack": [],
+      "url": ""
+    }
+  ]  

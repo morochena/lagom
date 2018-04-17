@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+---
+
+<div id="home">
+    <h2>
+        <i class="fa fa-bookmark"></i> Projects</h2>
+    <div id="blog-posts" class="posts">
+        {% for project in site.data.projects %} 
+        
+        <h3>{{ project.name }} - <span class="project-date">{{project.product_short_description}}</span></h3>
+        <h6 class="project-subtitle">{{project.date}} - {{project.role}}</h6>
+   
+        <p class="project-description">{{project.product_long_description}}</p>
+
+        {% for tag in project.stack %}
+        <span class="tech-tag">{{tag}}</span>
+        {% endfor %}
+        <hr>
+        {% endfor %}
+        
+    </div>
+</div>
