@@ -4,7 +4,7 @@
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
+    <img style="display: none;" src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
   <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
@@ -14,7 +14,7 @@
   <div id="links">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
       <li><a href="/projects">Projects</a></li>
     </ul>
   </div>
