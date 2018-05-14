@@ -62,7 +62,12 @@
     "development_narrative": "",
     "stack": ["React Native"],
     "url":
-      "https://www.kickstarter.com/projects/1282572530/snooz-the-app-that-helps-your-break-your-snoozing?ref=user_menu"
+      "https://www.kickstarter.com/projects/1282572530/snooz-the-app-that-helps-your-break-your-snoozing?ref=user_menu",
+      "images": [
+        "snooz1.png",
+        "snooz2.png",
+        "snooz3.png"
+      ]
   },
   {
     "name": "Francisco v2",
@@ -170,20 +175,12 @@
     "product_long_description": "",
     "development_narrative": "",
     "stack": [],
-    "url": ""
+    "url": "http://world-dom.herokuapp.com/",
+    "images": [
+      "wd3.png",
+      "wd2.jpg"
+    ]
   },
-  {
-    "name": "DEO",
-    "date": "",
-    "role": "",
-    "type": "",
-    "product_short_description": "",
-    "product_long_description": "",
-    "development_narrative": "",
-    "stack": [],
-    "url": ""
-  },
-
   {
     "name": "Cosmop",
     "date": "2013-2014",
@@ -204,7 +201,7 @@
     "name": "QuickDrink",
     "date": "",
     "role": "",
-    "type": "",
+    "type": "Mobile App",
     "product_short_description": "",
     "product_long_description": "",
     "development_narrative": "",
@@ -221,7 +218,7 @@
     "name": "Monocount",
     "date": "2013",
     "role": "",
-    "type": "",
+    "type": "Mobile App",
     "product_short_description": "",
     "product_long_description": "",
     "development_narrative": "",
