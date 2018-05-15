@@ -6,9 +6,9 @@
     "type": "Web Application",
     "product_short_description": "Product Feedback Platform",
     "product_long_description":
-      "Soba is an opinionated feedback platform focused on bridging the gap between product owners and customers.",
+      "Soba is a product feedback platform written in Ruby on Rails. Companies can register accounts very quickly create feedback websites for their products.",
     "development_narrative":
-      "Soba is a product feedback platform written in Ruby on Rails. Companies can register accounts very quickly create feedback websites for their products. Features include:\n Subscription Management through Stripe integration\nSubdomain scoped multi-tenancy with Postgres\nWorkers that interface with several external APIs such as Steam, Reddit, Discourse, Discord\nDynamic/assignable user permission system based on Pundit\n",
+      "Features include:\n- Subscription Management through Stripe integration\n- Subdomain scoped multi-tenancy with Postgres\n- Workers that interface with several external APIs such as Steam, Reddit, Discourse, Discord\n- Dynamic/assignable user permission system based on Pundit\n",
     "stack": ["Ruby on Rails", "Sidekiq", "Docker", "Postgres"],
     "url": "https://www.soba.io",
     "images": [
