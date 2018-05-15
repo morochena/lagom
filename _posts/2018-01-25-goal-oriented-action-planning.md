@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Goal Oriented Action Planning"
+title:  "Goal Oriented Action Planning Concepts"
 date:   2018-01-25
 categories: goap ai goal oriented action planning unity gamedev
-published: false
+published: true
 ---
 
 Goal Oriented Action Planning is a technique used in AI development to help reduce complexity for the programmer when designing complex state transitions. GOAP allows a programmer to specify goals for an AI, and lets it figure out the best sequence of actions to achieve that goal instead of explicitly telling it what to do. In the context of game development it's very suited for games focused on emergent gameplay with complex AI interactions. That being said, it's not a silver bullet. It's relatively costly to compute and it won't add behaviors that you wouldn't be able to otherwise implement. One way to look at it is that you're trading CPU time for development time.
@@ -56,19 +56,35 @@ This is where GOAP comes in. It builds upon FSMs - you're still creating the sta
 
 How does it work? We'll go into detail below, but simple terms you can think of GOAP dynamically generating FSMs based on its goals, environment, and available actions.
 
-
 ## Components of GOAP
 
 ### Agent 
 
+This is the 'brain' of the entity that is being managed by the AI. It has a list of goals and available actions. It also usually keeps track of its environment, often implemented in terms of 'sensors', which is outside the scope of this post. 
+
 ### Goals
 
+These are the primary directives of the agent. When the agent is planning it's action sequence, it's attempts to meet these goals.
+
+Goal Examples:
+```
+Name: Has a Sword
+Name: Not Hungry
+```
+
 ### Actions
+
+These are things that an agent can do which change the state of the the world. Generally the consist of a list of preconditons which must be met to execute the action, as well as a list of postconditions (or 'effects') that happen once they've done the action. They also have an associated 'energy' cost which the Planner will use to to help determine the most efficient series of actions to achieve a goal. 
+
+Action Example:
+``` 
+Action: 'Mine Ore', 
+Preconditions: ['Has Pick', 'Not Tired', 'Inventory not Full'], 
+Effects: ['Adds 1 Ore to Inventory']
+```
 
 ### Planner
 
 ## Implementation
 
-Note: I decided to use JS for this example because it's ubiquitous and easy to translate into other languages. While this is a functional GOAP implementation, I must warn you that it's fairly naive. A better implementation (in C#) is [ReGoap](https://github.com/luxkun/ReGoap) so if you're looking to use GOAP in production I would start there. [GPGOAP](https://github.com/stolk/GPGOAP) is another great example.
-
-Lastly, I would like to say that this is just my interpretation of GOAP. If you're interested in the source behind these ideas please check out Jeff Orkin's article [here](http://alumni.media.mit.edu/~jorkin/gdc2006_orkin_jeff_fear.pdf).
+Coming up next. :)

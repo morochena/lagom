@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How I set up new Windows PCs for development"
-date:   2018-01-25
+date:   2018-01-26
 categories: windows webdev setup ruby elixir python wsl productivity
 ---
 
