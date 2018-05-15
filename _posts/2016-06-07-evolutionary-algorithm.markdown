@@ -7,7 +7,6 @@ description: "Using genetic algorithms to improve OCR accuracy, specifically tar
 categories: ocr genetic-algorithm
 ---
 
-# Introduction
 I've been playing around with [Tesseract](https://github.com/tesseract-ocr/tesseract) to OCR documents for a few months, and one of the things I've learned is how important image preprocessing is. Files that are initially unreadable by Tesseract can yield fairly good results if you can optimize the images properly.
 
 While there are some basic heuristics for improving OCR quality, (increasing image size, increasing contrast) the actual parameters vary from image to image. I tried adaptive transformations via [openCV](http://docs.opencv.org/2.4/modules/imgproc/doc/miscellaneous_transformations.html) but they didn't work as effectively as I would've liked. At this point, my goal was to somehow determine optimal preprocessing parameters on a per-image basis. 

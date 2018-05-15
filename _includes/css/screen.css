@@ -91,6 +91,13 @@ ul.posts span {
   font-size:14px;
 }
 
+.post-date {
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  color: #aaa;
+  padding-right: 5px;
+  font-size:14px;
+}
+
 .meta {
   color: #aaa;
   margin: 0 0 10px 0;
