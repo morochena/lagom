@@ -70,4 +70,5 @@
   width: 200px;
   height: 200px;
   background-size: cover;
+  border: 1px solid #ddd;
 }

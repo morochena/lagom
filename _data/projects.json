@@ -26,6 +26,7 @@
       "Aggo is an iOS app designed to help you reach your goals, form new habits, and be the best version of yourself.",
     "stack": ["React Native", "MobX State Tree", "React Navigation", "Expo"],
     "url": "https://itunes.apple.com/us/app/aggo/id1365964890?mt=8",
+    "logo": "aggo.png",
     "images": [
       "aggo1.png",
       "aggo2.png",
@@ -59,6 +60,7 @@
     "stack": ["React Native"],
     "url":
       "https://www.kickstarter.com/projects/1282572530/snooz-the-app-that-helps-your-break-your-snoozing?ref=user_menu",
+      "logo": "snooz.png",
       "images": [
         "snooz1.png",
         "snooz2.png",
@@ -74,7 +76,8 @@
     "product_long_description":
       "Francisco is project management software. It features unique case number generation, note/activity tracking, file upload/management, todo assignments and reminder e-mails. It also integrates with Quickbooks and Harvest for automatic invoice generation.",
     "stack": ["Django", "SQLite"],
-    "url": "in-house"
+    "url": "in-house",
+    "logo": "francisco.png"
   },
   {
     "name": "Tavern",
@@ -136,6 +139,7 @@
     "product_long_description":
       "This app lets you pair your phone with golf clubs",
     "stack": ["iOS", "Swift"],
+    "logo": "dtrace.png",
     "url": ""
   },
   {
@@ -156,8 +160,9 @@
     "type": "Web Other",
     "product_short_description": "Online Multiplayer Risk Clone",
     "product_long_description": "",
-    "stack": [],
+    "stack": ["Ruby on Rails", "React", "Websockets", "Postgres"],
     "url": "http://world-dom.herokuapp.com/",
+    "logo": "wd.png",
     "images": [
       "wd3.png",
       "wd2.jpg"
@@ -168,7 +173,7 @@
     "date": "2013-2014",
     "role": "",
     "type": "Web Application",
-    "product_short_description": "",
+    "product_short_description": "Social Network for Travelers",
     "product_long_description": "",
     "stack": [],
     "url": "",
@@ -188,6 +193,7 @@
     "product_long_description": "",
     "stack": [],
     "url": "",
+    "logo": "qd.png",
     "images": [
       "qd1.png",
       "qd2.png",
@@ -203,6 +209,7 @@
     "product_long_description": "Monocount is a Magic: The Gathering life counter that I made soon after React Native first came out. I had originally developed and released the app in Objective C, but I wanted to explore what React Native was capable of. It was a great fit, and I've been happily using React Native ever since. :)",
     "stack": ["React Native"],
     "url": "https://github.com/morochena/MonoCount",
+    "logo": "monocount.png",
     "images": [
       "monocount1.png",
       "monocount2.png"
