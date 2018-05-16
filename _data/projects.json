@@ -6,8 +6,7 @@
     "type": "Web Application",
     "product_short_description": "Product Feedback Platform",
     "product_long_description":
-      "Soba is a product feedback platform written in Ruby on Rails. Companies can register accounts very quickly create feedback websites for their products.",
-      "Features include:\n- Subscription Management through Stripe integration\n- Subdomain scoped multi-tenancy with Postgres\n- Workers that interface with several external APIs such as Steam, Reddit, Discourse, Discord\n- Dynamic/assignable user permission system based on Pundit\n",
+      "Soba is a product feedback platform written in Ruby on Rails. Companies can register accounts very quickly create feedback websites for their products. Features include:\n- Subscription Management through Stripe integration\n- Subdomain scoped multi-tenancy with Postgres\n- Workers that interface with several external APIs such as Steam, Reddit, Discourse, Discord\n- Dynamic/assignable user permission system based on Pundit\n",
     "stack": ["Ruby on Rails", "Sidekiq", "Docker", "Postgres"],
     "url": "https://www.soba.io",
     "logo": "soba.png",
@@ -65,7 +64,6 @@
       "images": [
         "snooz1.png",
         "snooz2.png",
-        "snooz3.png"
       ]
   },
   {
@@ -77,7 +75,7 @@
     "product_long_description":
       "Francisco is project management software. It features unique case number generation, note/activity tracking, file upload/management, todo assignments and reminder e-mails. It also integrates with Quickbooks and Harvest for automatic invoice generation.",
     "stack": ["Django", "SQLite"],
-    "url": "in-house",
+    "url": "private",
     "logo": "francisco.png"
   },
   {
@@ -98,7 +96,11 @@
       "Postgres"
     ],
     "url": "https://www.tavernapp.io",
-    "logo": "tavern.png"
+    "logo": "tavern.png",
+    "images": [
+      "tavern0.png",
+      "tavern1.png"
+    ]
   },
   {
     "name": "Zombies!",
@@ -193,7 +195,7 @@
     "product_short_description": "",
     "product_long_description": "",
     "stack": [],
-    "url": "",
+    "url": "https://itunes.apple.com/us/app/quickdrink/id900599887?mt=8&ign-mpt=uo%3D4",
     "logo": "qd.png",
     "images": [
       "qd1.png",
@@ -209,7 +211,7 @@
     "product_short_description": "MTG Life Counter",
     "product_long_description": "Monocount is a Magic: The Gathering life counter that I made soon after React Native first came out. I had originally developed and released the app in Objective C, but I wanted to explore what React Native was capable of. It was a great fit, and I've been happily using React Native ever since. :)",
     "stack": ["React Native"],
-    "url": "https://github.com/morochena/MonoCount",
+    "url": "https://itunes.apple.com/us/app/monocount-redux/id1040024735?mt=8&ign-mpt=uo%3D4",
     "logo": "monocount.png",
     "images": [
       "monocount1.png",

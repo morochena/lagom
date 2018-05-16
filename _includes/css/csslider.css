@@ -52,3 +52,12 @@
   background-size: cover;
   border: 1px solid #ddd;
 }
+
+.modal {
+  max-width: 700px !important;
+  border-radius: 0px;
+}
+
+.project-description {
+  font-size: 0.9em;
+}
