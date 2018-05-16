@@ -44,6 +44,7 @@
       "Sometimes at work I find myself needing a small break. Too often, this leads to mindlessly tabbing through different social media or shopping sites before I realize I've lost 15 or 30 minutes of productivity. This app encourages you to take conscious breaks by popping up before you access particular sites that you specify.",
     "stack": ["Javascript"],
     "url": "https://addons.mozilla.org/en-US/firefox/addon/take-a-breather/",
+    "logo": "takeabreather.png",
     "images": [
       "takeabreather1.png",
       "takeabreather2.png",
@@ -175,7 +176,7 @@
     "type": "Web Application",
     "product_short_description": "Social Network for Travelers",
     "product_long_description": "",
-    "stack": [],
+    "stack": ["Ruby on Rails", "AngularJS"],
     "url": "",
     "logo": "cosmop.png",
     "images": [

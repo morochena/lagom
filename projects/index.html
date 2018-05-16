@@ -3,6 +3,14 @@ layout: default
 title: Projects
 ---
 
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+              crossorigin="anonymous"></script>
+              
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 <div id="home">
     <h2>
         <i class="fas fa-coffee"></i> Projects</h2>
@@ -18,7 +26,9 @@ title: Projects
                 {% for project in projects %}
 
                 <div class="item">
+                    <a href="#{{ project.logo | remove: ".png" }}" rel="modal:open">
                     <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    </a>
                     <h4>{{ project.name }}</h4>
                     <span class="project-date">{{project.product_short_description}}</span>
 
@@ -42,7 +52,9 @@ title: Projects
                 {% for project in projects %}
 
                 <div class="item">
+                    <a href="#{{ project.logo | remove: ".png" }}" rel="modal:open">
                     <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    </a>
                     <h4>{{ project.name }}</h4>
                     <span class="project-date">{{project.product_short_description}}</span>
                 </div>      
@@ -58,7 +70,9 @@ title: Projects
                 {% for project in projects %}
 
                 <div class="item">
+                    <a href="#{{ project.logo | remove: ".png" }}" rel="modal:open">
                     <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    </a>
                     <h4>{{ project.name }}</h4>
                     <span class="project-date">{{project.product_short_description}}</span>
                 </div>      
@@ -67,3 +81,14 @@ title: Projects
             </div>
         </div>
 </div>
+
+{% for project in site.data.projects %}
+<div id="{{ project.logo | remove: ".png"}}" class="modal">
+    <h2 style="margin-bottom: 0;">{{project.name}} - <small>{{ project.date}} </small></h2>
+    <p style="margin-bottom: 10px;"><small>{{project.role}}</small></p><br/>
+    <p>{{project.product_long_description}}</p>
+    {% for image in project.images %}
+        <img style="width: 90%; padding: 10px;" src="/assets/images/projects/{{image}}">
+    {% endfor %}
+</div>
+{% endfor %}
