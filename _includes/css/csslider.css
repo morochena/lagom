@@ -55,3 +55,19 @@
   column-count:         1;
   }
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 2px;
+  flex: 1;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}

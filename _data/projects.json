@@ -7,10 +7,10 @@
     "product_short_description": "Product Feedback Platform",
     "product_long_description":
       "Soba is a product feedback platform written in Ruby on Rails. Companies can register accounts very quickly create feedback websites for their products.",
-    "development_narrative":
       "Features include:\n- Subscription Management through Stripe integration\n- Subdomain scoped multi-tenancy with Postgres\n- Workers that interface with several external APIs such as Steam, Reddit, Discourse, Discord\n- Dynamic/assignable user permission system based on Pundit\n",
     "stack": ["Ruby on Rails", "Sidekiq", "Docker", "Postgres"],
     "url": "https://www.soba.io",
+    "logo": "soba.png",
     "images": [
       "soba2.png",
       "soba3.png",
@@ -24,7 +24,6 @@
     "product_short_description": "Life Goal Planner",
     "product_long_description":
       "Aggo is an iOS app designed to help you reach your goals, form new habits, and be the best version of yourself.",
-    "development_narrative": "",
     "stack": ["React Native", "MobX State Tree", "React Navigation", "Expo"],
     "url": "https://itunes.apple.com/us/app/aggo/id1365964890?mt=8",
     "images": [
@@ -37,12 +36,11 @@
     "name": "Take a Breather",
     "date": "2018",
     "role": "Solo Developer",
-    "type": "Firefox Add-on",
+    "type": "Other",
     "product_short_description":
-      "Take some time to yourself instead of mindlessly browsing.",
+      "Distraction Prevention",
     "product_long_description":
       "Sometimes at work I find myself needing a small break. Too often, this leads to mindlessly tabbing through different social media or shopping sites before I realize I've lost 15 or 30 minutes of productivity. This app encourages you to take conscious breaks by popping up before you access particular sites that you specify.",
-    "development_narrative": "",
     "stack": ["Javascript"],
     "url": "https://addons.mozilla.org/en-US/firefox/addon/take-a-breather/",
     "images": [
@@ -58,7 +56,6 @@
     "product_short_description": "Custom Alarm Clock",
     "product_long_description":
       "Snooz is an alarm app that helps you break your bad snoozing habits by making you donate to a charity every time you oversleep or hit the snooze button.",
-    "development_narrative": "",
     "stack": ["React Native"],
     "url":
       "https://www.kickstarter.com/projects/1282572530/snooz-the-app-that-helps-your-break-your-snoozing?ref=user_menu",
@@ -69,14 +66,13 @@
       ]
   },
   {
-    "name": "Francisco v2",
+    "name": "Francisco",
     "date": "2018",
     "role": "Lead Developer",
     "type": "Web Application",
     "product_short_description": "Project Management Software",
     "product_long_description":
       "Francisco is project management software. It features unique case number generation, note/activity tracking, file upload/management, todo assignments and reminder e-mails. It also integrates with Quickbooks and Harvest for automatic invoice generation.",
-    "development_narrative": "",
     "stack": ["Django", "SQLite"],
     "url": "in-house"
   },
@@ -88,7 +84,6 @@
     "product_short_description": "Whisky Encyclopedia",
     "product_long_description":
       "Tavern is a whisky encyclopedia and social network. You can rate whiskies that you've had, and record their flavor profile. Among other things, it features a recommender system to suggest other whiskies you may like. ",
-    "development_narrative":
       "Tavern is a whisky encyclopedia and social network that allows you to record whiskies you’ve tried, explore flavor profiles and get recommendations based on your preferences. I worked with a team of five over the course of several months (part-time) in the role of lead backend developer and project manager. I made appropriate architectural decisions to ensure scalability, maintainability and performance.\nThe backend is written in Elixir using the Phoenix framework backed by a Postgres for storage and GenServer processes for caching. It serves a GraphQL API that’s consumed by a React/Apollo powered frontend bundled with Webpack.",
     "stack": [
       "Phoenix",
@@ -98,19 +93,20 @@
       "MobX",
       "Postgres"
     ],
-    "url": "https://www.tavernapp.io"
+    "url": "https://www.tavernapp.io",
+    "logo": "tavern.png"
   },
   {
     "name": "Zombies!",
     "date": "2017",
     "role": "AI/Network Programmer",
-    "type": "Game",
+    "type": "Other",
     "product_short_description": "Multiplayer Zombie Survival Game",
     "product_long_description":
       "Zombies! is a 2d procedurally generated pixel art multiplayer survival game. You can work together with your fellow humans, or hunt them down for supplies.",
-    "development_narrative": "",
     "stack": ["LibGDX", "Mini2DX", "Java", "KryoNet"],
-    "url": ""
+    "url": "",
+    "logo": "zombies.png"
   },
 
   {
@@ -121,9 +117,9 @@
     "product_short_description": "Flashcard System",
     "product_long_description":
       "This is a flashcard system originally designed for a genetics board exam. It has a Rails backend with an administrative interface and an API that connects to a React Native frontend.",
-    "development_narrative": "",
     "stack": ["React Native", "Ruby on Rails", "Postgres"],
     "url": "",
+    "logo": "mgmastery.png",
     "images": [
       "mgmastery1.png",
       "mgmastery2.png",
@@ -139,7 +135,6 @@
     "product_short_description": "Golf Club Tracker",
     "product_long_description":
       "This app lets you pair your phone with golf clubs",
-    "development_narrative": "",
     "stack": ["iOS", "Swift"],
     "url": ""
   },
@@ -150,29 +145,17 @@
     "type": "Web API Backend, Mobile Frontend",
     "product_short_description": "Share moments of your life",
     "product_long_description": "",
-    "development_narrative": "",
-    "stack": [],
-    "url": ""
-  },
-  {
-    "name": "Francisco",
-    "date": "2015",
-    "role": "",
-    "type": "",
-    "product_short_description": "",
-    "product_long_description": "",
-    "development_narrative": "",
-    "stack": [],
+    "stack": ["Ruby on Rails", "React Native", "Redux", ],
+    "logo": "leyefe.png",
     "url": ""
   },
   {
     "name": "World Domination",
     "date": "",
-    "role": "",
-    "type": "",
-    "product_short_description": "",
+    "role": "Backend/API Programmer",
+    "type": "Web Other",
+    "product_short_description": "Online Multiplayer Risk Clone",
     "product_long_description": "",
-    "development_narrative": "",
     "stack": [],
     "url": "http://world-dom.herokuapp.com/",
     "images": [
@@ -184,12 +167,12 @@
     "name": "Cosmop",
     "date": "2013-2014",
     "role": "",
-    "type": "",
+    "type": "Web Application",
     "product_short_description": "",
     "product_long_description": "",
-    "development_narrative": "",
     "stack": [],
     "url": "",
+    "logo": "cosmop.png",
     "images": [
       "cosmop1.png",
       "cosmop2.png"
@@ -203,7 +186,6 @@
     "type": "Mobile App",
     "product_short_description": "",
     "product_long_description": "",
-    "development_narrative": "",
     "stack": [],
     "url": "",
     "images": [
@@ -212,17 +194,15 @@
       "qd3.png"
     ]
   },
-
   {
     "name": "Monocount",
-    "date": "2013",
-    "role": "",
+    "date": "2015",
+    "role": "Solo Developer",
     "type": "Mobile App",
-    "product_short_description": "",
-    "product_long_description": "",
-    "development_narrative": "",
-    "stack": [],
-    "url": "",
+    "product_short_description": "MTG Life Counter",
+    "product_long_description": "Monocount is a Magic: The Gathering life counter that I made soon after React Native first came out. I had originally developed and released the app in Objective C, but I wanted to explore what React Native was capable of. It was a great fit, and I've been happily using React Native ever since. :)",
+    "stack": ["React Native"],
+    "url": "https://github.com/morochena/MonoCount",
     "images": [
       "monocount1.png",
       "monocount2.png"

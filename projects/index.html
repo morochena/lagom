@@ -9,32 +9,61 @@ title: Projects
     <p>Here is a list of some freelance and side projects I've worked on in a non-trivial capacity. If you have any questions
         about a particular project, please feel free to send me an e-mail.</p>
 
-   
+        <div class="projects">
 
-    <div id="projects" class="posts">
-        {% for project in site.data.projects %}
+            <h2>Web Applications</h2>
+            <div class="web-apps grid">
+                {% assign projects = site.data.projects | where_exp: "project","project.type contains 'Web'" %}
+                
+                {% for project in projects %}
 
-        <h3>{{ project.name }} -
-            <span class="project-date">{{project.product_short_description}}</span>
-        </h3>
-        <h6 class="project-subtitle">{{project.date}} - {{project.role}}</h6>
+                <div class="item">
+                    <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    <h4>{{ project.name }}</h4>
+                    <span class="project-date">{{project.product_short_description}}</span>
 
-        <section id="photos">
-            {% for image in project.images %}
-            <a href="/assets/images/projects/{{ image }}" target="_blank">
-            <img src="/assets/images/projects/{{ image }}">
-            </a>
-            {% endfor %}
-        </section>
+                    <div>
+                    {% for tag in project.stack %}
+                        <span class="tech-tag">{{tag}}</span>
+                        {% endfor %}
+                    </div>
 
-        <p class="project-description">{{project.product_long_description}}</p>
+                    
+                </div>      
 
-        <p class="project-tech-details">{{project.development_narrative | newline_to_br }}</p>
+                {% endfor %}
+            </div>
 
-        {% for tag in project.stack %}
-        <span class="tech-tag">{{tag}}</span>
-        {% endfor %}
-        <hr> {% endfor %}
+            <hr>
 
-    </div>
+            <h2>Mobile Applications</h2>
+            <div class="web-apps grid">
+                    {% assign projects = site.data.projects | where_exp: "project","project.type contains 'Mobile'" %}
+                {% for project in projects %}
+
+                <div class="item">
+                    <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    <h4>{{ project.name }}</h4>
+                    <span class="project-date">{{project.product_short_description}}</span>
+                </div>      
+
+                {% endfor %}
+            </div> 
+
+            <hr>
+
+            <h2>Games & More</h2>
+            <div class="web-apps grid">
+                {% assign projects = site.data.projects | where_exp: "project","project.type contains 'Other'" %}
+                {% for project in projects %}
+
+                <div class="item">
+                    <div class="image" style="background-image: url(/assets/images/projects/{{ project.logo }});" ></div>
+                    <h4>{{ project.name }}</h4>
+                    <span class="project-date">{{project.product_short_description}}</span>
+                </div>      
+
+                {% endfor %}
+            </div>
+        </div>
 </div>
