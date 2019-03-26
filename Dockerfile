@@ -24,6 +24,5 @@ ADD . /app
 
 RUN rm -rf /usr/share/nginx/html
 RUN ln -s -f /app/_site/. /usr/share/nginx/html
-RUN ls /usr/share/nginx/html
 
 EXPOSE 80
