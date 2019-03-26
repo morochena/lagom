@@ -22,6 +22,6 @@ RUN bundle exec jekyll build
 
 ADD . /app
 
-RUN cp -r /app/_site/. /usr/share/nginx/html/.
+RUN cp -rf /app/_site/. /usr/share/nginx/html/.
 
 EXPOSE 80
