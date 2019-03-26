@@ -17,10 +17,10 @@ WORKDIR /app
 COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
 
+ADD . /app
+
 RUN bundle install
 RUN bundle exec jekyll build
-
-ADD . /app
 
 RUN cp -rf /app/_site/. /usr/share/nginx/html/.
 
